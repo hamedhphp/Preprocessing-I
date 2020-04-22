@@ -57,3 +57,66 @@ html, body {
     height: 100%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+li, a, button{ 
+	font-weight:500;
+	color: white;
+	font-family: "montserrat",sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;}
+	header{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		background-color: #242528;
+	     padding: 30px 10%;}
+.logo {
+	margin-right: auto;
+	width: 18%;
+	cursor: pointer;}
+.nav-links{
+	list-style:none;}
+.nav-link li {
+	display: inline-block;
+	padding:  0px 20px;
+}
+.nav-links li a{ 
+	transition: all 0.3s ease 0s;}
+a:hover {
+	color: #16a085;}
+	button{ 
+		padding:  9px 25px;
+		margin-left: 20px;
+		background-color: #16a085;
+		border: none;
+		border-radius: 50px;
+cursor: pointer;
+		transition: all 0.3s ease 0s;}
+button:hover{
+		background-color: darkorchid;
+	}
+		
+
+		
+body{
+	background-color: gray;}
+	@media (max-width:800px){
+		header {display: flex;
+	flex-direction:column;
+	height: 200px;
+	.nav-link li {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+		padding:  0px 20px;
+		.logo{ border:solid;
+			justify-content: center;
+	}
+	
+	background-color: #242528;
+	 padding: 30px 10%;}
+	// img{width: 100%;}
+
+
